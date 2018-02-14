@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>WolfionHub:Creative Portfolio</title>
 </head>
 <body>
@@ -30,63 +31,147 @@
         </div>
     </header>
 
-    <div class="container" id="about-me">
+    <div class="container row d-flex" id="about-me">
 
-        <div>
-            
-            <h1 class="headings">About Me</h1>
-        
-        </div>
+       <div class="col-sm" id="col-1">
+           <h1 id="about-head">About Me</h1>
 
-         <blockquote>
-        <p>Logic will get you from A to B. Imagination will take you everywhere.</p>
-        <footer><cite>— Albert Einstein</cite></footer>
-        </blockquote>
+           <div class="row">
 
-        <div id="about-text">
-
-            <p>
-                Hello People , I am a <strong>Computer Science Engineer</strong> (2000-15). I am a <strong>passionate full stack developer .</strong> 
-                This is my Portfolio Site . I like <strong>Photography </strong>,<strong>coding </strong>,<strong>Playing Cricket</strong>.
-            </p>
-
-            <p>
-                I am always looking to code better and clean. I am making sites from a very early age . I got very much intrested in <strong>HTML 5</strong> , I use to build static websites then i started learning <strong>CSS3</strong> and <strong>JavaScript</strong> .
-                Currently i am learning <strong>node.js</strong> and <strong>React</strong> .
-            </p>
-        </div>
-
-        
-        <div class="row" id="row1">
                 <div class="col-sm">
-            
-                <div id='aboutimg_1' ></div>
-            </div>
-        </div>
-        <div class="row" id="row2">
-            <div class="col-sm">
-
-                    <div id="aboutimg_2"></div>
+                    <blockquote>
+                            <center><p>Logic will get you from A to B. Imagination will take you everywhere.</p>
+                            <footer><cite>— Albert Einstein</cite></footer></center>
+                    </blockquote>
                 </div>
             </div>
-        
+           <div class="row" id="row-2">
 
-            <div class="row" id="row3">
-                <div class="col-sm">
+                <div class="col-sm-7" class="about-text">
+                    <p class="about-text">
+                        Hello People , I am a <strong>Computer Science Engineer</strong> (2000-15). I am a <strong>passionate full stack developer .</strong> 
+                        This is my Portfolio Site . I like <strong>Photography </strong>,<strong>coding </strong>,<strong>Playing Cricket</strong>.
+                    </p>
 
-                        <div id="aboutimg_3"></div>
+                    <p class="about-text">
+                        I am always looking to code better and clean. I am making sites from a very early age . I got very intrested in <strong>HTML 5</strong> , I use to build static websites then i started learning <strong>CSS3</strong> and <strong>JavaScript</strong> .
+                        Currently i am learning <strong>node.js</strong> and <strong>React</strong> .
+                    </p>
+
+                    <div class="fonts row text-center" id="col-2">
+                        <div class="col-md-3 ">
+                            <i class="fa fa-facebook-square fa-3x" aria-hidden="true" id="font-1"></i><br>facebook
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i><br>instagram
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i><br>linked-in
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="col-md d-flex flex-column align-items-end justify-content-between">
+
+                    <div class="p-2" id="img1"></div>
+                    <div class="p-2" id="img2"></div>
+                    <div class="p-2" id="img3"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work container" id="workid">
+        <div class="row" id="row-1">
+            <div class="col-md" id="col-wrk"><h1>Projects</h1>
+            </div>
+        </div>
+        <div class="row" id="row-2">
+            <div class="col-md-3" id="proj">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="images/about_1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-        
-        
-
-            
-            
-            
-
-       
-
+            </div>
+            <div class="col-md-3" id="proj">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="images/about_1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" id="proj">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="images/about_1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <footer class="page-footer ">
+        <div class="container-fluid">
+            <div class="row" id="foot-row">
+                <div class="col-md-8 mx-auto" id="foot-col-1">
+                    <center><h2 class="footer-font">Deepanshu Bhasker</h2></center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5" id="footer-form">
+                    <form class="form-horizontal" action="" method="post">
+                        <fieldset>
+                            <legend class="text-center">Contact us</legend>
+    
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <div class="col-md-9 footer-form">
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                </div>
+                            </div>
+                             <!-- Email input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                <div class="col-md-9 footer-form">
+                                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                </div>
+                            </div>
+    
+                            <!-- Message body -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Your message</label>
+                                <div class="col-md-9 footer-form">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                </div>
+                            </div>
+    
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-md-9 text-right footer-form">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
 
 
 
